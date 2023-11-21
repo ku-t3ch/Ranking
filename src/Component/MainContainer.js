@@ -6,7 +6,7 @@ import Highest from './Checkpoint/Highest';
 import Middle from './Checkpoint/Middle';
 import Lowest from './Checkpoint/Lowest';
 
-import logo from "../image/logo.png"
+import logoAll from "../image/logo.png"
 import { RxReload } from "react-icons/rx";
 
 
@@ -124,7 +124,7 @@ export default function MainContainer() {
     return (
     <div className="flex flex-col items-center mx-[3vw] my-[2vh] min-h-[94vh] max-h-[94vh] w-[94vw]">
         <header className='flex  flex-col text-center justify-center items-center'>
-            <img src={`${logo}`} />
+            <img src={`${logoAll}`} />
         </header>
         <div className="flex md:flex-row xs:flex-col justify-center items-center md:gap-x-[2vw] w-full">
             <Middle isLoading={isLoading}  avg={checkpoint.avg}/>           
